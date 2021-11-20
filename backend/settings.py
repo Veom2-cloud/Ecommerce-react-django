@@ -25,9 +25,9 @@ import os
 SECRET_KEY = 'django-insecure-pc7mkmneg_i0$-!j)($r=zjw!eyz0%i#yo^7y=2bvakqi0eoq$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['newwebsite12.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -164,7 +164,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR= 'staticfiles')
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
