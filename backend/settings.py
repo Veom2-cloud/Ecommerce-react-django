@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-pc7mkmneg_i0$-!j)($r=zjw!eyz0%i#yo^7y=2bvakqi0eoq$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'newwebsite12.herokuapp.com']
 
 
 # Application definition
@@ -83,7 +83,7 @@ SIMPLE_JWT = {
 
 MIDDLEWARE = [
      "corsheaders.middleware.CorsMiddleware",
- 'whitenoise.middleware.WhiteNoiseMiddleware',
+     'whitenoise.middleware.WhiteNoiseMiddleware',
 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
